@@ -88,6 +88,11 @@
             font-weight: bold;
             color: var(--primary);
         }
+		
+		.logo-icon img {
+		  width: 100%;
+		  height: auto;
+		}
 
         .logo-text h1 {
             font-size: 1.5rem;
@@ -252,7 +257,6 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            padding: 0.5rem;
             transition: all 0.2s;
         }
 
@@ -769,7 +773,7 @@
         <div class="container">
             <div class="header-content">
                 <div class="logo">
-                    <div class="logo-icon">日</div>
+                    <div class="logo-icon"><img src="https://hikari-jlc.github.io/images/logo1.ico"></div>
                     <div class="logo-text">
                         <h1>Hikari Nihongo Center</h1>
                         <p>Belajar Bahasa Jepang dengan Mudah</p>
@@ -890,7 +894,7 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>© 2024 Hikari Nihongo Center - Belajar Bahasa Jepang dengan Mudah</p>
+            <p>© <?php echo date("Y"); ?> Hikari Nihongo Center - Belajar Bahasa Jepang dengan Mudah</p>
             <p class="motivation">がんばって！ (Ganbatte! - Semangat!)</p>
         </div>
     </footer>
